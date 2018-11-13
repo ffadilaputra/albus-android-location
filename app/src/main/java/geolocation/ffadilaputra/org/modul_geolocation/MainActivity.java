@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements AddressAsycTask.o
 	private void stopLocation() {
     	if (mtrackingLocation){
     		mtrackingLocation = false;
-    		mFusedLocationClient.removeLocationUpdates(mLocationCallback);
+    		mFusedLocationClient.removeLocationUpdates(m)
     		btn.setText("Mulai tracking gan");
     		txtLastLocation.setText("Tracking dihentikan ");
     		rotateAnime.end();
@@ -124,10 +124,7 @@ public class MainActivity extends AppCompatActivity implements AddressAsycTask.o
 
 	@Override
 	public void onTaskCompleted(String result) {
-    	if (mtrackingLocation){
-			txtLastLocation.setText(getString(R.string.alamat_text, result, System.currentTimeMillis()));
-		}
-
+		txtLastLocation.setText(getString(R.string.alamat_text, result, System.currentTimeMillis()));
 	}
 
 	private LocationRequest getLocationRequest(){

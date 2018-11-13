@@ -40,7 +40,6 @@ public class AddressAsycTask extends AsyncTask<Location , Void, String> {
 		String resultMessage = "";
 		List<Address> addresses = null;
 
-
 		try {
 			addresses = geocoder.getFromLocation(
 					location.getLatitude(),
