@@ -2,7 +2,7 @@
 
 
 ## 🎺 Hasil
-!['hehehe'](./gif/TIO6_15.gif)
+!['hehehe'](https://media.giphy.com/media/4VW0QuNT7XcOulTaBJ/giphy.gif)
 
 
 ## Praktikum 9.2
